@@ -1,5 +1,5 @@
 import random
-answer_ls = ["It is certain",
+answers = ["It is certain",
             "It is decidedly so",
             "Without a doubt",
             "Yes definitely",
@@ -23,4 +23,4 @@ input_ = input("Ask a question!\n")
 if input_[-1] != '?':
     input_ += '?'
 print('You asked: ' + input_)
-print('Answer: ' + random.choice(answer_ls))
+print('Answer: ' + random.choice(answers))
